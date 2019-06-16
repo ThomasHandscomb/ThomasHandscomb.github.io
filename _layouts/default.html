@@ -3,7 +3,7 @@
 <meta name="description" content="add a description of your site here">
 <meta name="keywords" content="add, some, keywords, you, want, here">
 	<head>
-		<title>Thomas Handscomb</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="./css/main.css">
 	</head>
@@ -12,16 +12,11 @@
     		<ul>
         		<li><a href="/">Home</a></li>
 	        	<li><a href="/about">About</a></li>
-				<li><a href="/blog">Blog</a></li>
+			<li><a href="/blog">Blog</a></li>
         		<li><a href="/cv">CV</a></li>       		
     		</ul>
 		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Thomas Handscomb</h1>
-				<p>Data Scientist</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+	{{ content }}
 
     <section id="content-contact">
         <div class="container">
