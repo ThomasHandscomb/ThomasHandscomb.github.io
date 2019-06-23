@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html>
-<meta name="description" content="add a description of your site here">
-<meta name="keywords" content="add, some, keywords, you, want, here">
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+<html lang="en">
+
+	{% include head.html %}
+	
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/About">About</a></li>
-			<li><a href="/ds">Data Science</a></li>
-        		<li><a href="/CV">CV</a></li>       		
-    		</ul>
-		</nav>
+		<!-- <div><br> &nbsp;</div> -->
 		
 		<div class="container">
+		
+			{% include header.html %}
 			
 			{{ content }}
 			
+			{% include footer.html %}
+			
 		</div><!-- /.container -->
-
+	
 	</body>
+	
 </html>
