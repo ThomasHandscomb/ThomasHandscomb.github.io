@@ -2,12 +2,37 @@
 layout: default
 title: Data Science
 home: passive
-cv: active
+cv: passive
 projects: passive
 notes: passive
 contact: passive
 description: Blog of DS activity here
 ---
+<html class="home-bg">
 <div class="ds">
-	<h1>DS blog here</h1>
+	<h1> Ideas and Code </h1>
+	
+	<p> I wanted to collect and share some learnings I've had during the course of my commercial data science career. 
+	As my professional work is proprietary the examples here are fully annonimised but are designed to illustrate a concept or outline how you might
+	structure some code for your own project <br>
+	
+		I'm broadly agnostic to the R verses Python debate in data science and the collection of examples here reflect that. Please do get in 
+		<a href = "/About"> touch</a> with any questions or comments </p>
+	
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
+		
+		<ul style="list-style-type:disc;">
+	
+			<li> RBSA </li>
+			<li> A comparison of classifiers (Neural Net, Random Forest, XGBoost) </li>
+			<li> D3 Globe - infrastructure and code and getting to work hosting a web server locally on python </li>
+			<li> Inbox scrapping and insights on email sending and receiving contained. Collaboration metric </li>
+		
+		</ul>
+	
 </div><!-- /ds -->

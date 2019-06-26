@@ -1,8 +1,8 @@
 
-/* Background image */
+/* Set the background image layout for each page */
 html { 
-  /* The image used */
-  background-image: url('/img/Bground2.jpg');
+  /* The image used 
+  background-image: url('/img/Bground2.jpg'); */
 
   /* Full height */
   height: 100%; 
@@ -13,13 +13,23 @@ html {
   background-size: cover;
 }
 
+/* Define the background image per page */
+.home-bg {
+  /* The image used */
+  background-image: url('/img/Bground2.jpg');
+}
+
+.about-bg {
+  /* The image used  
+  background-image: url('/img/Thomas-Handscomb.jpg'); */
+}
 
 /* Space out content a bit */
 body {
     padding-top: 0px;
 	padding-bottom: 10px;
 	margin: 20px auto;
-    width: 85%;
+    width: 50%;
     /* background-color: #141414; */
 }
 
@@ -34,14 +44,16 @@ body {
 /* Navigation pills */
 .nav {
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   list-style: none;
+  padding-bottom: 50px;
 }
 
 .nav > li {
   position: relative;
   display: block;
   font-family:'Monaco';
+  font-size: 1.1em;
 }
 
 .nav_pills > li {
@@ -52,14 +64,20 @@ body {
   position: relative;
   display: block;
   padding-left: 50px;
+  color: #000000;
 }
+
+.nav > li > a:hover {
+  text-decoration: underline;
+}
+
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
   background-color: #428bca;
-}	
+  }	
 
 .nav-pills > li > a > .badge {
   margin-left: 3px;
@@ -68,12 +86,12 @@ body {
 /* html links */
 a {
     text-decoration: none;
-    color: #000000;
+	color: #0046B7;
 }
 
-a:hover {
-    text-decoration: underline;
-}
+/* a:hover {
+    text-decoration: none;
+} */
 
 /* Custom page header */
 .header {
@@ -86,7 +104,7 @@ a:hover {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
 }
 
 /* Custom page footer */
@@ -97,9 +115,21 @@ a:hover {
   font-size: 0.75em;
 }
 
-/* Aligning left or right */
+/* Aligning right, left or centre */
 .pull_right {
   float: right;
+}
+
+.pull_left {
+  float: left;
+	}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  vertical-align: middle;
 }
 
 h1 {
@@ -109,10 +139,50 @@ h1 {
 }
 
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.3em;
+    /*line-height: 1.4em;*/
 	font-family:'adobe-garamond-pro';
 	color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 1.0em;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn:hover {
+    text-decoration: none;
 }
 
 ul.posts { 
