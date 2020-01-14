@@ -1,0 +1,38 @@
+---
+layout: default_ds_blog
+title: DS Blog
+description: Data Science Blog
+Comment: Manifold thinking
+---
+
+<div id="wrapper">
+	<div id="three-column" class="container">
+		
+		<div class="title">
+			<span class="byline"> When leading a commercial data science project I invariably:<br> (a) learn new things <br> (b) find gaps in my understanding on things that I thought I knew well<br><br>
+			A good forcing mechanism for me to ensure I have understood a concept is to simply try to write something down that makes sense at the end of a project. I've captured here a selection of notes from some of my 
+			experiences - I hope some are as useful to you as they were to me writing them! </span>
+		</div>
+			
+		<div class="title_blog">
+			<ul class="style_blog">
+
+				{% for post in site.posts %}
+				<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		
+		
+		<ul style="list-style-type:disc;">
+	
+			<li> A comparison of classifiers (Neural Net, Random Forest, XGBoost) </li>
+			<li> D3 Globe - infrastructure and code and getting to work hosting a web server locally on python </li>
+			<li> Inbox scrapping and insights on email sending and receiving contained. Collaboration metric </li>
+			<li> NLP with BERT with a neural net final layer </li>
+		
+		</ul>
+		
+	</div>
+	
+</div>

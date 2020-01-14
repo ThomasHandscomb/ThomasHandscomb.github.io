@@ -43,12 +43,14 @@
 	
 	a
 	{
-		color: #ee0000;
+		color: #003366;
+		text-decoration: none;
 	}
 	
 	a:hover
 	{
 		text-decoration: none;
+		font-weight: bold;
 	}
 	
 	.container
@@ -56,6 +58,13 @@
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
+	}
+	
+	.blogcontainer
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1050px;
 	}
 	
 /*********************************************************************************/
@@ -102,10 +111,13 @@
 /* List Styles                                                                   */
 /*********************************************************************************/
 
-	ul.style1
-	{
+	ul.style_blog
+	{font-size: 1.5 em;
 	}
 
+	ul.style_blog li
+	{margin: 20px 0;
+	}
 
 /*********************************************************************************/
 /* Social Icon Styles                                                            */
@@ -190,7 +202,7 @@
 	.box3,
 	.box4
 	{
-		width: 235px;
+		width: 184px;
 	}
 	
 	.box1,
@@ -198,7 +210,7 @@
 	.box3,
 	{
 		float: left;
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 	
 	.box4
@@ -225,6 +237,62 @@
 	}
 	
 	.boxC
+	{
+		float: right;
+	}
+
+
+/*********************************************************************************/
+/* 3-column_TH                                                                      */
+/*********************************************************************************/
+
+	.boxA_TH,
+	.boxB_TH,
+	.boxC_TH
+	{
+		width: 280px;
+	}
+
+	.boxA_TH,
+	.boxB_TH
+	{
+		float: left;
+		margin-right: 10px;
+	}
+	
+	.boxC_TH
+	{
+		float: right;
+	}
+
+
+/*********************************************************************************/
+/* 5-column_TH                                                                      */
+/*********************************************************************************/
+
+	.box1_TH,
+	.box2_TH,
+	.box3_TH
+	.box4_TH
+	.box5_TH
+	{
+		width: 240px;
+	}
+
+	.box1_TH,
+	.box2_TH
+	{
+		float: left;
+		margin-right: 0px;
+	}
+	
+	.box3_TH
+	{
+		float: center;
+	}
+
+	.box4_TH
+	.box5_TH
 	{
 		float: right;
 	}
@@ -259,6 +327,12 @@
 		margin-bottom: 3em;
 	}
 	
+	.title_blog
+	{
+		margin-bottom: 3em;
+		font-size: 1.3em;		
+	}
+	
 	.title h2
 	{
 		font-size: 2.7em;
@@ -288,8 +362,8 @@
 	#header-wrapper
 	{
 		position: relative;
-		padding: 5em 0em 7em 0em;
-		background: #111111 url(images/header-bg.jpg) no-repeat center;
+		padding: 2em 0em 2em 0em;
+		background: #111111 url(/images/BackgroundBW.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -376,7 +450,7 @@
 
 	#banner
 	{
-		padding-top: 10em;
+		padding-top: 6em;
 		text-align: center;
 	}
 	
@@ -432,7 +506,7 @@
 	#footer
 	{
 	}
-
+	
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
@@ -440,7 +514,7 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 		border-top: 1px solid rgba(0,0,0,0.08);
 	}
 	
@@ -465,8 +539,8 @@
 	#welcome
 	{
 		position: relative;
-		padding: 7em 0em 7em 0em;
-		background: #111111 url(images/header-bg.png) no-repeat center;
+		padding: 2em 0em 3.5em 0em;
+		/* background: #111111 url(/images/header-bg.png) no-repeat center; */
 		background-size: cover;
 		text-align: center;
 	}
@@ -492,6 +566,13 @@
 	{
 		text-align: center;
 		color: rgba(0,0,0,0.6);
+	}
+
+	#blog-page
+	{
+		text-align: left;
+		color: rgba(0,0,0,0.6);
+		font-size: 1.2em;
 	}
 
 	#three-column .fa
