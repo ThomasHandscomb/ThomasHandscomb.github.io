@@ -34,6 +34,8 @@
 	tr:nth-child(even) {background-color: #f2f2f2;}
 	tr:hover {background-color: #ddd;}
 	
+	/* End Table Styles */
+	
 	h1, h2, h3
 	{
 		margin: 0;
@@ -90,6 +92,12 @@
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
+
+	img {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
 	.image
 	{
