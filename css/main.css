@@ -308,8 +308,8 @@
 
 	.box1_TH,
 	.box2_TH,
-	.box3_TH
-	.box4_TH
+	.box3_TH,
+	.box4_TH,
 	.box5_TH
 	{
 		width: 240px;
@@ -327,7 +327,7 @@
 		float: center;
 	}
 
-	.box4_TH
+	.box4_TH,
 	.box5_TH
 	{
 		float: right;
