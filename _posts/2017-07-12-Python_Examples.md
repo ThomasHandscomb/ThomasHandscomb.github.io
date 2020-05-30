@@ -9,7 +9,7 @@ date: 2017-07-12
 <div id="wrapper">
 	<div id="blog-page" class="blogcontainer">
 <h3>Introduction</h3> <br>
-There is a common misconception that writing code for data science involves sitting in a dark room and effortlessly typing 60 words per minute of green Matrix-esque syntax onto a vast 
+There is a common misconception that writing code for data science involves sitting in a dark room and effortlessly typing Matrix-esque syntax onto a vast 
 array of monitor screens.
 In reality coding is generally a slow, non-linear, often frustrating and iterative process involving back tracking, second guessing, Google searching, posting questions on 
 <a href = "https://stackoverflow.com/"> Stack Overflow </a> and (most commonly in my experience) copy/pasting and modifying old code that you or someone else has 
@@ -35,6 +35,7 @@ Some of the syntax examples covered are: <br><br>
 	<li> Using an API in Python </li>
 	<li> Lambda functions </li>
 	<li> Creating DataFrames in a loop </li>
+	<li> Plotting with Matplotlib </li>
 	
 	</div>
 </div>
