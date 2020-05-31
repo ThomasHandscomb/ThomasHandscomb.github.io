@@ -305,7 +305,7 @@ Out[48]: (692, 1)
 </pre>
 
 Having used the BERT pre-trainined model to extract some information from our natural language features we are now in a position to build classifier models to predict the binary 
-target classes. This is covered in more detail in my <a href = "/2019/11/11/NLP-with-BERT_Classifiers.html"> Part 2 </a> of this series. 
+target classes. This is covered in more detail in <a href = "/2019/11/11/NLP-with-BERT_Classifiers.html"> Part 2 </a> of this series. 
 	
 	</div>
 </div>
