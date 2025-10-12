@@ -85,7 +85,8 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
-		width: 1200px;
+		width:100%;
+		max-width: 1200px;
 	}
 	
 	.blogcontainer
@@ -312,7 +313,9 @@
 	.box4_TH,
 	.box5_TH
 	{
-		width: 240px;
+		width: 100%;
+		max-width: 240px;
+		height: auto
 	}
 
 	.box1_TH,
