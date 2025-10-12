@@ -184,6 +184,9 @@
 	ul.contact li a
 	{
 		color: #FFF;
+		width:100%;
+		max-width: 40px;
+		height: auto;
 	}
 	
 	ul.contact li a:before
@@ -542,9 +545,14 @@
 /* Footer                                                                        */
 /*********************************************************************************/
 
-	#footer
-	{
+	
+	.footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #070707;
+	color: rgba(255,255,255,0.3);
 	}
+
 	
 /*********************************************************************************/
 /* Copyright                                                                     */
